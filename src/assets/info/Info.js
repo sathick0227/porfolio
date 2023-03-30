@@ -1,61 +1,66 @@
 import self from '../img/self.png';
 import { colors } from '../colors/mainGradient';
-
+import shop from '../img/shop.png';
+import pay from '../img/pay.png';
+import invenrty from '../img/inventry.png'
+import Sale from '../img/sale.png';
+import Warehouse from '../img/warehouse.png';
+import Website from '../img/website.png';
 export const info = {
-  firstName: 'Andy',
-  lastName: 'Luo',
-  initials: 'AL', // the example uses first and last, but feel free to use three or more if you like.
-  position: 'a Full Stack Developer',
+  firstName: 'Sathick',
+  lastName: 'Batcha',
+  initials: 'SB', // the example uses first and last, but feel free to use three or more if you like.
+  position: 'a Front-End Developer',
   selfPortrait: self, // don't change this unless you want to name your self-portrait in the "img" folder something else!
   gradient: `-webkit-linear-gradient(135deg, ${colors})`, // don't change this either
   baseColor: colors[0],
   miniBio: [
     // these are just some "tidbits" about yourself. You can look at mine https://paytonjewell.github.io/#/ for an example if you'd like
     {
-      emoji: '🇨🇦',
-      text: 'based in the Toronto, Canada',
+      emoji: '📍',
+      text: 'based in Tamil Nadu, India Lives in Dubai',
     },
     {
       emoji: '💻',
-      text: 'Full Stack Developer at commonsku',
+      text: 'Front-End Developer',
     },
     {
       emoji: '📧',
-      text: 'andy8647lgc@gmail.com',
+      text: 'sathickbatcha71@gmail.com',
     },
   ],
   socials: [
     {
-      link: 'https://andy8647.com/andy.pdf', // this should be https://yourname.com/resume.pdf once you've deployed
+      link: './resume.pdf', // this should be https://yourname.com/resume.pdf once you've deployed
       icon: 'fa fa-file',
       label: 'resume',
     },
     {
-      link: 'https://instagram.com/andy_lgc?igshid=YmMyMTA2M2Y=',
+      link: 'https://instagram.com/sathick__batcha?igshid=ZDdkNTZiNTM=',
       icon: 'fa fa-instagram',
       label: 'instagram',
     },
     {
-      link: 'https://github.com/Andy8647',
+      link: 'https://github.com/sathick0227',
       icon: 'fa fa-github',
       label: 'github',
     },
     {
-      link: 'https://www.linkedin.com/in/gancheng-luo-andy/',
+      link: 'https://www.linkedin.com/in/sathick-batcha-17297998',
       icon: 'fa fa-linkedin',
       label: 'linkedin',
     },
     {
-      link: 'https://twitter.com/Andy8647L',
-      icon: 'fa fa-twitter',
-      label: 'twitter',
+      link: 'https://www.facebook.com/sathick.batcha1996?mibextid=ZbWKwL',
+      icon: 'fa fa-facebook',
+      label: 'facebook',
     },
   ],
-  bio: "Hello! I'm Gancheng (Andy) Luo. I'm a Full Stack Developer. I studied CompSci at UofT, I enjoy building web applications and learning new technologies. I'm currently working at commonsku as a Full Stack Developer. I'm also a freelance photographer. I love to travel and explore new places. I'm currently based in Toronto, Canada.",
+  bio: "Hello! I'm Sathick Batcha. I'm a Front-End Developer. I studied BE(CSE) at Anna University, I enjoy building web applications, mobile applications and learning new technologies. I'm currently looking for a work opportunities. I'm also a freelance a customized website or mobile applications. I love to travel and explore new places. I'm currently based in dubai.",
   skills: {
     // you dont havew to strictly follow the 'languages', 'frameworks', 'databases', 'cloudServices', and 'tools' categories. You can add your own if you'd like.
     // but the structure should be the same, an array of strings and the key should be one word, no spaces.
-    languages: ['TypeScript', 'JavaScript', 'Java', 'PHP', 'Python', 'HTML/CSS'],
+    languages: ['TypeScript', 'JavaScript', 'Python', 'HTML/CSS'],
     frameworks: [
       'React',
       'Redux',
@@ -68,8 +73,8 @@ export const info = {
       'Zend',
       'Django',
     ],
-    databases: ['MySQl', 'MongoDB', 'PostgreSQL', 'Mybatis', 'TypeORM'],
-    cloudServices: ['AWS S3', 'AWS EC2', 'AWS SNS', 'Google Analytics', 'Heroku', 'Netlify'],
+    databases: ['MySQl', 'MongoDB', 'PostgreSQL'],
+    cloudServices: [ 'Google Analytics', 'Heroku', 'Netlify'],
     tools: [
       'Git',
       'Postman',
@@ -83,23 +88,16 @@ export const info = {
       'Jira',
       'Confluence',
       'Bitbucket',
+      'moEngage',
     ],
   },
   hobbies: [
-    {
-      label: 'Photography',
-      emoji: '📷',
-    },
     {
       label: 'Video Games',
       emoji: '🎮',
     },
     {
-      label: 'Guitar',
-      emoji: '🎸',
-    },
-    {
-      label: 'Anime',
+      label: 'foot ball',
       emoji: '🎞',
     },
     {
@@ -121,16 +119,40 @@ export const info = {
     // This is where your portfolio projects will be detailed
     //   for the null ones, the button will not show up
     {
-      title: 'CryptoGoGo - Online Cryptocurrency Community and Trading platform',
+      title: 'Mobile Shop Manager',
       live: null, //this should be a link to the live version of your project, think github pages, netlify, heroku, etc. Or your own domain, if you have it.
       source: 'https://github.com/Andy8647/CryptoGoGo', // this should be a link to the **repository** of the project, where the code is hosted.
-      image: 'https://i.ibb.co/6BsWs6f/01.jpg',
+      image: shop,
     },
     {
-      title: 'Dynrank.js - High-performance dynamic bar chart visualization library',
+      title: 'Payroll Mobile App',
       live: null,
       source: 'https://github.com/Andy8647/dynrank',
-      image: 'https://i.ibb.co/HFkMKtH/02.jpg',
+      image: pay,
+    },
+    {
+      title: 'Inventry Management',
+      live: null,
+      source: 'https://github.com/Andy8647/dynrank',
+      image: invenrty,
+    },
+    {
+      title: 'Sales Management Systems',
+      live: null,
+      source: 'https://github.com/Andy8647/dynrank',
+      image: Sale,
+    },
+    {
+      title: 'Warehouse Management Systems',
+      live: null,
+      source: 'https://github.com/Andy8647/dynrank',
+      image: Warehouse,
+    },
+    {
+      title: 'Ecommerce website',
+      live: 'https://www.henbenaturalsindia.in',
+      source: 'https://github.com/Andy8647/dynrank',
+      image: Website,
     },
   ],
 };

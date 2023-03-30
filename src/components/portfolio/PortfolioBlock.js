@@ -10,7 +10,7 @@ function PortfolioBlock(props) {
             component={'img'}
             src={image}
             alt={'mockup'}
-            width={'30vw'}
+            width={'25vw'}
             style={{
                 objectFit: 'cover',
                 borderRadius: '25px',

@@ -56,7 +56,7 @@ const ParticlesBg = ({ darkMode }) => {
           modes: {
             bubble: {
               distance: 40,
-              duration: 2,
+              duration: 0.5,
               opacity: 0.4,
               size: 40,
             },
