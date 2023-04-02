@@ -6,7 +6,6 @@ import invenrty from '../img/inventry.png'
 import Sale from '../img/sale.png';
 import Warehouse from '../img/warehouse.png';
 import Website from '../img/website.png';
-import resume from './resume.pdf'
 export const info = {
   firstName: 'Sathick',
   lastName: 'Batcha',
@@ -32,7 +31,7 @@ export const info = {
   ],
   socials: [
     {
-      link: resume, // this should be https://yourname.com/resume.pdf once you've deployed
+      link: 'resume.pdf', // this should be https://yourname.com/resume.pdf once you've deployed
       icon: 'fa fa-file',
       label: 'resume',
     },
