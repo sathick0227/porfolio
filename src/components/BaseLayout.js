@@ -7,7 +7,7 @@ import Portfolio from './portfolio/Portfolio';
 import { Route, Routes } from 'react-router-dom';
 import { Box, Grid } from '@mui/material';
 import ParticlesBg from './particles/ParticlesBg';
-
+import {info} from '../assets/info/Info';
 export default function BaseLayout() {
   let [darkMode, setDarkMode] = useState(false);
 
@@ -69,7 +69,10 @@ export default function BaseLayout() {
             sx={{ opacity: 0.7 }}
             width={'100%'}
           >
-            
+            <a href="mailto:henbenaturals@gmail.com?subject=Work Regarding:">
+            <button className={Style.hire_btn} style={{background: info.gradient}} 
+            >Hire Me</button>
+            </a>
           </Box>
         </Grid>
       </Grid>
