@@ -121,37 +121,37 @@ export const info = {
     {
       title: 'Mobile Shop Manager',
       live: null, //this should be a link to the live version of your project, think github pages, netlify, heroku, etc. Or your own domain, if you have it.
-      source: 'https://github.com/Andy8647/CryptoGoGo', // this should be a link to the **repository** of the project, where the code is hosted.
+      source: null, // this should be a link to the **repository** of the project, where the code is hosted.
       image: shop,
     },
     {
       title: 'Payroll Mobile App',
       live: null,
-      source: 'https://github.com/Andy8647/dynrank',
+      source: null,
       image: pay,
     },
     {
       title: 'Inventry Management',
       live: null,
-      source: 'https://github.com/Andy8647/dynrank',
+      source: null,
       image: invenrty,
     },
     {
       title: 'Sales Management Systems',
       live: null,
-      source: 'https://github.com/Andy8647/dynrank',
+      source: null,
       image: Sale,
     },
     {
       title: 'Warehouse Management Systems',
       live: null,
-      source: 'https://github.com/Andy8647/dynrank',
+      source: null,
       image: Warehouse,
     },
     {
       title: 'Ecommerce website',
       live: 'https://www.henbenaturalsindia.in',
-      source: 'https://github.com/Andy8647/dynrank',
+      source: 'https://github.com/sathick0227/Henbe-Naturals',
       image: Website,
     },
   ],
